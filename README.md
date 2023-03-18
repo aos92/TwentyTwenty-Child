@@ -1,4 +1,4 @@
-# TwentyTwenty-Child
+# WordPress Twenty Twenty Child Theme
 
 WordPress Twenty Twenty Child theme to reduce heading font size, remove all the extra space around headings and some elements, and increase width of text and content area.  
 Also with a few other improvements.  
