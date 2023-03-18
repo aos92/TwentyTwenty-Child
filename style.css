@@ -1,0 +1,67 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: https://github.com/aos92/twentytwenty-child/
+Template: twentytwenty
+Author: aos92
+Author URI: https://speaksify.my.id/
+Description: Smaller font and less space around everything
+Tags: child-heme
+Version: 1.0
+Updated: 2023-03-17 14:13:48
+
+*/
+
+/* Twenty Twenty Stuff */
+
+/* Smaller Heading Font please */
+@media (min-width: 700px) {
+  h1, .heading-size-1 { font-size: 6.4rem; }
+  h2, .heading-size-2 { font-size: 4.4rem; }
+  h3, .heading-size-3 { font-size: 3.8rem; }
+  h4, .heading-size-4 { font-size: 3.2rem; }
+}
+
+/* Reduce white space around stuff */
+@media (min-width: 700px) {
+  .widget .widget-title { margin-bottom: 2rem; }
+  .post-inner { padding-top: 3rem; }
+  .footer-widgets-outer-wrapper { padding: 3rem 0; }
+  #site-footer {
+    padding: 3rem 0; }
+}
+.singular .entry-header {
+  padding: 2rem 0;
+}
+body:not(.singular) main > article:first-of-type {
+  padding: 2rem 0 0;
+}
+.archive-header {
+  padding: 2rem 0;
+}
+.error404 #site-content {
+  padding-top: 2rem;
+}
+
+/* Hide Tags from Blog page */
+.blog .post-tags.meta-wrapper {
+  display: none;
+}
+/* Hide Tags from Archive page */
+.archive .post-tags.meta-wrapper {
+  display: none;
+}
+
+.entry-content {
+  font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing: normal;
+}
+
+.page-template-blog .entry-header {
+    display: none;
+}
+
+.page-template-beranda .entry-header {
+    display: none;
+}
+
+/* End Twenty Twenty Stuff */
