@@ -122,8 +122,7 @@ body:not(.singular) main > article:first-of-type {
 height: 1.25rem; 
 }
 
-/*
-
+/**
 /* remove post excerpts throughout the site */
 .post-inner { 
    display: none; 
