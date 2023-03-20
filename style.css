@@ -64,4 +64,96 @@ body:not(.singular) main > article:first-of-type {
     display: none;
 }
 
+/* Remove margin between columns on mobile */ 
+@media all and (max-width:760px){ 
+  .wp-block-columns { 
+       grid-gap:0 
+  } 
+  .wp-block-column + .wp-block-column figure { 
+   margin-top:0 !important;
+  } 
+}
+
+/* Pages - Remove padding above main content area */ 
+.page .post-inner { 
+  padding-top: 0;
+}
+
+/* Hide Tags from Archive page */
+.archive .post-tags.meta-wrapper {
+  display: none;
+}
+
+/* Increase the width of each footer */
+.footer-widgets { 
+   width: 50%; 
+}
+
+/* Align */
+.entry-content p {
+  text-align: justify;
+}
+
+/* Set parent container to position caption inside */ 
+.featured-media-inner { 
+   position:relative 
+}
+
+/* Position & style caption */ 
+.wp-block-image figcaption { 
+   position:absolute; 
+   bottom:0;    background-color:rgba(255,255,255,0.8); 
+   padding:10px; 
+}
+
+/* Force the featured image to use all the available space */ 
+.featured-media-inner img { 
+   width:100%; 
+   height:auto; 
+}
+
+/* Button border fix */ 
+.is-style-outline .wp-block-button__link { 
+   background-color: transparent; 
+   border: 2px solid; 
+}
+
+.nav-toggle .toggle-icon, .nav-toggle svg { 
+height: 1.25rem; 
+}
+
+/*
+
+/* remove post excerpts throughout the site */
+.post-inner { 
+   display: none; 
+}
+
+/* Add site logo as a background */ 
+.header-titles { 
+   background-image:URL("https://yoursite.com/yourlogo.png"); 
+   background-repeat:no-repeat; 
+   background-position:top left; 
+   overflow:visible; 
+   display:block; 
+   min-height:100px; 
+   background-size:100px; 
+   padding-left:100px; 
+}
+/* Adjust the size of the logo on mobile separately */
+@media all and (max-width:760px){ 
+   .header-titles { 
+      min-height:100px; 
+      background-size:100px; 
+      padding-left:100px; 
+  } 
+}
+
+/* Change only footer background */
+#site-footer { 
+   background-color: #0d1117!important; 
+   color: #fff; 
+}
+*/
+
 /* End Twenty Twenty Stuff */
