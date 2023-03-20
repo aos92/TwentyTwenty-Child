@@ -123,12 +123,11 @@ height: 1.25rem;
 }
 
 /**
-/* remove post excerpts throughout the site */
+// remove post excerpts throughout the site 
 .post-inner { 
    display: none; 
 }
-
-/* Add site logo as a background */ 
+// Add site logo as a background
 .header-titles { 
    background-image:URL("https://yoursite.com/yourlogo.png"); 
    background-repeat:no-repeat; 
@@ -139,7 +138,7 @@ height: 1.25rem;
    background-size:100px; 
    padding-left:100px; 
 }
-/* Adjust the size of the logo on mobile separately */
+// Adjust the size of the logo on mobile separately
 @media all and (max-width:760px){ 
    .header-titles { 
       min-height:100px; 
@@ -147,8 +146,7 @@ height: 1.25rem;
       padding-left:100px; 
   } 
 }
-
-/* Change only footer background */
+// Change only footer background
 #site-footer { 
    background-color: #0d1117!important; 
    color: #fff; 
