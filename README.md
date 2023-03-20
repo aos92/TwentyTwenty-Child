@@ -12,3 +12,5 @@ Summary of improvements:
 * Delete Category from top of Blog Page and Posts
 * Remove Excerpt from Blog Page
 * Delete embedded fonts
+* Change the navigation menu icon
+* Hide all page titles
