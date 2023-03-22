@@ -15,4 +15,3 @@ Summary of improvements:
 * Change the navigation menu icon
 * Hide all page titles
 
-Demo https://speaksify.my.id
